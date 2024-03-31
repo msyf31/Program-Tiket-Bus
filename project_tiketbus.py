@@ -1,3 +1,5 @@
+import os
+
 print("=" * 65)
 print("")
 print(" SELAMAT DATANG DI APLIKASI TIKET SINAR JAYA AGEN TERMINAL TEGAL")
@@ -190,6 +192,9 @@ print("")
 print("=" * 20, "Sedang Mencetak Tiket", "=" * 20)
 print("")
 print("")
+
+os.system('cls')
+
 print("")
 print(" " * 20, "Tiket Sinar Jaya Group", " " * 20)
 print("  Kenyamanan Bertransportasi yang Aman, terjangkau, Terpercaya")
@@ -211,3 +216,4 @@ print(" ")
 print(" " * 10, "Pemegang Tiket dianggap telah mengetahui dan", " " * 10)
 print(" " * 4, "Wajib memenuhi ketentuan dan Peraturan SINAR JAYA GROUP!", " " * 4)
 print("=" * 7, "Mohon Hadir 30 Menit sebelum Jadwal Keberangkatan", "=" * 7)
+print(" ")
